@@ -8,6 +8,7 @@ var maxDrops = 100;
 var drops = [];
 var rand;
 var thunderCreatedFrame=0;
+var thun;
 
 function preload(){
     thun1 = loadImage("1.png");
