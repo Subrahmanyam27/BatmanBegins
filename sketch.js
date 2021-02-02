@@ -39,7 +39,7 @@ function draw(){
     var rand = Math.round(random(1,4));
     if(frameCount%80===0){
         thunderCreatedFrame = frameCount;
-        var thun = createSprite(random(10,370), random(10,30), 10, 10);
+        thun = createSprite(random(10,370), random(10,30), 10, 10);
         switch(rand){
             case 1: thun.addImage(thun1);
             break;
